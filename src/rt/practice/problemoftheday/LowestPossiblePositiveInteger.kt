@@ -19,7 +19,7 @@ fun markPositiveNumbers(numbers: IntArray, negativeNoCount: Int) {
     }
 }
 
-// bring all negative number along with zero at the start of array and return total count of them
+// bring all negative number along with zero at the start of array and return total number of them
 fun separateNegativeNumberAndZeros(numbers: IntArray): Int {
     var negativeNoCount: Int = 0
     for (i in numbers.indices) {
